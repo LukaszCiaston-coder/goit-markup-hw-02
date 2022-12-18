@@ -5,16 +5,19 @@
     <title>Zadanie domowe</title>
     <meta name="description" content="Zadanie domowe">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a class="logo"><span class="black-font">Web</span><span class="blue-font">Studio</span></a>
+        <div class="logo-header">
+            <a class="link" href="./index.html"><span class="blue-font">Web</span>Studio</a>
+        </div>
         <nav>
             <ul class="site-nav">
                 <li><a class="agency" href="/Agencja">Agencja</a></li>
@@ -28,87 +31,102 @@
         </ul>
     </header>
     <main>
-        <h1>
-            <p class="main-title">EFEKTYWNE ROZWIĄZANIA DLA NASZEGO BIZNESU</p>
-            <button type="button">Zamów usługę</button>
-        </h1>
+        <div class="border-heading">
+            <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA NASZEGO BIZNESU</h1>
+            <button class="bg" type="button">Zamów usługę</button>
+        </div>
         <article>
             <div>
-                <h5><p class="text-title">Lorem ipsum</p></h5>
-                <h6>
-                    <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui.
-                        Interdum et malesuada</p>
+                <h5 class="text-title">Lorem ipsum</h5>
+                <h6 class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed
+                    non sodales dui.
+                    Interdum et malesuada
                 </h6>
             </div>
             <div>
-                <h5>
-                    <p class="text-title">Lorem ipsum</p>
+                <h5 class="text-title">Lorem ipsum</h5>
+                <h6 class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed
+                    non sodale dui.
+                    Interdum et malesuada
+                </h6>
+            </div>
+            <div>
+                <h5 class="text-title">Lorem ipsum
                 </h5>
-                <h6>
-                    <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
-                        dui.
-                        Interdum et malesuada</p>
-                </h6>
-            </div>
-            <div>
-                <h5>
-                    <p class="text-title">Lorem ipsum</p>
-                </h5>
-                <h6>
-                    <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
-                        dui.
-                        Interdum et malesuada</p>
-                </h6>
-            </div>
-            <div>
-            <h5>
-                <p class="text-title">Lorem ipsum</p>
-            </h5>
-            <h6>
-                <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales
+                <h6 class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed
+                    non sodales
                     dui.
-                    Interdum et malesuada</p>
-            </h6>
+                    Interdum et malesuada
+                </h6>
+            </div>
+            <div>
+                <h5 class="text-title">Lorem ipsum
+                </h5>
+                <h6 class="article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed
+                    non sodales
+                    dui.
+                    Interdum et malesuada
+                </h6>
             </div>
         </article>
-        <h2>
-           <p class="work"> Czym się zajmujemy</p>
+        <h2 class="work"> Czym się zajmujemy
         </h2>
         <img alt="someone is programming something on the computer" src="images/01.jpg" width="370" height="294">
         <img alt="someone is creating phone apps" src="images/02.jpg" width="370" height="294">
         <img alt="someone is testing apps on a tablet" src="images/03.jpg" width="370" height="294">
-        <h2>
-            <p class="team">Nasz zespół</p>
+        <h2 class="team">Nasz zespół
         </h2>
         <div id=gallery>
             <div class=figure>
                 <figure>
                     <img alt="John Doe Product Designet" src="images/pd.jpg" width="270" height="260">
-                    <figcaption>John Doe Product Designet</figcaption>
+                    <figcaption>
+                        <ul>
+                            <li class="name-john">John Doe</li>
+                            <li class="professional-position">Product Designet</li>
+                        </ul>
+                    </figcaption>
                 </figure>
             </div>
             <div class=figure>
                 <figure>
                     <img alt="John Doe Frontend Developer" src="images/fd.jpg" width="270" height="260">
-                    <figcaption>John Doe Frontend Developer</figcaption>
+                    <figcaption>
+                        <ul>
+                            <li class="name-john">John Doe</li>
+                            <li class="professional-position">Frontend Developer</li>
+                        </ul>
+                    </figcaption>
                 </figure>
             </div>
             <div class=figure>
                 <figure>
                     <img alt="John Doe Marketing" src="images/m.jpg" width="270" height="260">
-                    <figcaption>John Doe Marketing</figcaption>
+                    <figcaption>
+                        <ul>
+                            <li class="name-john">John Doe</li>
+                            <li class="professional-position">Marketing</li>
+                        </ul>
+                    </figcaption>
                 </figure>
             </div>
             <div class=figure>
                 <figure>
                     <img alt="John Doe Ul Designer" src="images/ul.jpg" width="270" height="260">
-                    <figcaption>John Doe Ul Designer</figcaption>
+                    <figcaption>
+                        <ul>
+                            <li class="name-john">John Doe</li>
+                            <li class="professional-position">Ul Designer</li>
+                        </ul>
+                    </figcaption>
                 </figure>
             </div>
         </div>
     </main>
     <footer>
-        <a class="logo">Web<span class="blue-font">Studio</span></a>
+        <div class="footer-logo">
+            <a class="link" href="./index.html">Web<span class="blue-font">Studio</span></a>
+        </div>
         <address class="address">m.Warszawa al.Jerozolimska 21</address>
         <ul>
             <li><a class="mail" href="/mailto:info@devstudio.com">info@devstudio.com</a></li>

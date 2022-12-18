@@ -1,51 +1,83 @@
-.logo {
+.logo-header {
     font-size: 26px;
-    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
     line-height: 1.17;
-}
-a:hover {
-color:#2196F3
-}
-.logo.black-font {
     color: #0000;
 }
-    .blue-font {
-color: #2196f3;
-    }
-    .site-nav {
-        font-size: 14px;
-            font: weight 500px;
-            line-height: 1.17;
-            text-align: left; 
-    }
-   .agency{
+
+.footer-logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+    color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+.blue-font {
+    color: #2196f3;
+}
+
+.site-nav {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    text-align: left;
+    text-align: left;
+    text-align: left;
+}
+
+.agency {
     color: #212121;
 }
-    .portfolio
-    { 
-        color:#212121;
-    }
-    .contact
-    {
-        color: #212121;
-    }
-    .connect{
-        font-size: 14px;
-            font: weight 500px;
-            line-height: 1.17;
-            text-align: right;
-    }
-    .mailto{
-        color:#757575
-    }
+
+.portfolio {
+    color: #212121;
+}
+
+.project-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.00;
+    color: #212121;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+}
+
+.connect {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    text-align: right;
+    color: #212121;
+}
+
+.mailto {
+    color: #757575
+}
+
 .number {
     color: #757575;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #757575;
 }
-h1 {
+
+.border-heading {
     background-color: #2F303A;
     height: 600px;
     width: 1600px;
@@ -53,68 +85,124 @@ h1 {
     top: 80px;
     border-radius: 0px;
 }
+
 .main-title {
     font-size: 44px;
-    font: weight 900px;
+    font-weight: 900;
     line-height: 1.5;
     text-align: center;
-    color:#ffff
+    color: #ffff
 }
-button
-{
+
+button {
     position: relative;
-    background-color: #e5e5e5;
+    background-color: #F5F4FA;
     cursor: pointer;
 }
-    button:hover 
-    {
-        background-color: #2196F3;
-        font-size: 16px;
-        font-weight: 700;
-        color: #ffff;
-    }
-    .text-title{
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 1.17;
-        color: #212121;
-    }
-    .article-text {
-font-size: 14px;
-font-weight: 400;
-line-height: 1.71;
-color:#757575;
-    }
-.work{
-    font-size: 36px;
-        font-weight: 700;
-        line-height: 1.17;
-        text-align: center;
-        color: #212121;
+
+.bg {
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
 }
+
+.rectangle {
+    height: 38px;
+    width: 121px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+}
+
+button:hover {
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.text-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.article-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    color: #757575;
+}
+
+.work {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+}
+
 .team {
     font-size: 36px;
-        font-weight: 700;
-        line-height: 1.17;
-        text-align: center;
-        color: #212121;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
 }
+
+.name-john {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.professional-position {
+    font-size: 16px;
+    line-height: 1.17;
+    color: #757575;
+}
+
 footer {
-    background-color: #2F303A;;
+    background-color: #2F303A;
+    ;
     height: 252px;
     width: 1600px;
     left: 0px;
     top: 2097px;
     border-radius: 0px;
 }
+
 .address {
-    font-size: 14px; 
+    font-style: normal;
+    font-size: 14px;
     line-height: 1.71;
-    color:#ffff
+    color: #ffff
 }
+
 a.tel {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
     color: #FFFFFF60;
 }
+
 a.mail {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF60;
+}
+
+.mail-portfolio {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: underline;
     color: #FFFFFF60;
 }
