@@ -23,7 +23,14 @@ body {
     color: #2196f3;
 }
 
-.link-white:hover{
+.link-black:hover {
+    color: #2196F3;
+}
+.link-black{
+    color: #000000;
+    text-decoration: none;
+}
+.link-white:hover {
 color: #2196F3;
 }
 .link-white {
